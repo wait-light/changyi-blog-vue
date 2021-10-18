@@ -9,9 +9,8 @@ import axios from "axios";
 // axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 axios.defaults.withCredentials = true
 let config = {
-    // http://bloger.changyix.top:8868
     // http://localhost:8888/api
-    baseURL: "/api"
+    baseURL: "http://localhost:8888/api"
         // timeout: 60 * 1000, // Timeout
         // withCredentials: true, // Check cross-site Access-Control
 };
