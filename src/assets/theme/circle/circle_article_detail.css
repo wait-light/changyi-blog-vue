@@ -1,0 +1,27 @@
+/* 文章详情显示最外层的容器 */
+
+
+@media screen and (max-width: 992px) {
+    .article_container_outSide {
+        z-index : 0;
+        position: relative;
+        padding : 0;
+    }
+}
+
+/* 除了手机端 */
+@media screen and (min-width:992px) {
+    .article_container_outSide {
+        z-index      : 0;
+        position     : relative;
+        padding      : 50px;
+        box-shadow   : 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        border       : 1px solid black;
+        margin       : 50px;
+        border-radius: 0.5em;
+
+    }
+}
+.article_container_outSide {
+    background: white;
+}

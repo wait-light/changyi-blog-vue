@@ -1,0 +1,9 @@
+/* 登录 */
+
+.login_loginbox {
+    padding: 50px 10px 20px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 0.5em;
+}

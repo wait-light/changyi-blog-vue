@@ -1,0 +1,141 @@
+/* 基础 */
+
+
+/* 字体 */
+
+.basic_fontfamily {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+
+/* 文字竖直居中 */
+
+.basic_text_vertical {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
+/* 绝对水平居中 */
+
+.basic_absolute_vertical_center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* 1、辅助文字 */
+
+.basic_font_assist {
+    font: 12px Extra Small;
+}
+
+
+/* 2、正文（小） */
+
+.basic_font_text_sm {
+    font: 13px Small;
+}
+
+
+/* 3、正文 */
+
+.basic_font_text {
+    font: 14px Base;
+}
+
+
+/* 4、小标题 */
+
+.basic_font_title_sm {
+    font: 16px Medium;
+}
+
+
+/* 5、标题 */
+
+.basic_font_title_md {
+    font: 18px large;
+}
+
+
+/* 6、主标题 */
+
+.basic_font_title_xs {
+    font: 20px Extra large;
+}
+
+
+/* 绝对中心 */
+
+.basic_absolute_center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+
+/* 垂直排列的盒子 */
+
+.basic_vertical_box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 水平排列的盒子 */
+
+.basic_horizontal_box {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* 阴影 */
+
+.basic_border_shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+}
+
+.basic_border_shadow_light {
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+}
+
+
+/* 边框 */
+
+
+/* 1、实线 */
+
+.basic_border_solid {
+    border: 1px solid #DCDFE6;
+}
+
+
+/* 2、虚线 */
+
+.basic_border_dashed {
+    border: 2px dashed #DCDFE6;
+}
+
+
+/* 边框圆角 */
+
+.basic_border_radius_none {
+    border-radius: 0px;
+}
+
+.basic_border_radius_xs {
+    border-radius: 2px;
+}
+
+.basic_border_radius_md {
+    border-radius: 4px;
+}
+
+.basic_border_radius_lg {
+    border-radius: 50px;
+}

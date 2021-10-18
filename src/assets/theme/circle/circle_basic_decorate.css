@@ -1,0 +1,25 @@
+/* 将span的样式转化为类似button */
+.span_2_button{
+    background-color:rgba(225, 245, 255, 1) ;
+    border-radius: 3px; 
+    margin-left: 5px;
+    display: inline-block;  
+    cursor:pointer;
+    border: rgba(230, 245, 255, 1) solid;
+}
+.spen_2_canclick{
+    cursor:pointer;
+}
+.link_2_button{
+    text-decoration: none;
+    color: white;
+    background: #93d5dc;
+    height: 20px;
+    padding: 3px 10px;
+    width: fit-content;
+    display: inline-block;
+    border-radius: 0.5em;
+}
+.link_2_button:visited{
+    color: white;
+}

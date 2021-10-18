@@ -1,0 +1,75 @@
+.admin_sider {
+    min-height: calc(100vh - 61px);
+    overflow: hidden;
+}
+
+.admin_mainer_container {
+    padding: 20px;
+    min-height: calc(100vh - 61px);
+}
+.admin_mainer_article{
+    position: relative;
+}
+.admin_mainer_article_title{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.admin_mainer_article_content{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.admin_mainer_article_types{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.admin_mainer_article_tags{
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.admin_mainer_article_time{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.admin_tags{
+    margin-right: 20px;
+}
+/* 后台表格的样式 */
+/* 不起作用，作废 哽咽 */
+.admin_table{ 
+    height: calc(100vh - 101px);
+}
+.admin_table_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.admin_setting_box{
+    height: calc(100vh - 150px);
+}
+.admin_message_box{
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+}
+.admin_message_container{
+    display: flex;
+}
+.admin_message_title{
+    margin: 10px;
+    font-size: 30px;
+}
+.admin_message_context{
+    font-size: 50px;
+}
+.admin_display_button{
+    font-size: xx-small;
+    width: 100%;
+    padding: 3px;
+}
