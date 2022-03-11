@@ -24,12 +24,10 @@ npm run serve
 npm run build
 ```
 
-### 更多信息
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 更多信息在线查看 ps:服务器快过期了
+vue2 [Configuration Reference](https://cli.vuejs.org/config/).
 
-## 查看
-
-[在线查看](http://blog.adxd.top/) ps:服务器快过期了
+## 样式
 
 ![image-20211018111410762](https://i.loli.net/2021/10/18/24luhJbLotmDRek.png)
 
