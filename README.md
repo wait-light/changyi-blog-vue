@@ -24,7 +24,7 @@ npm run serve
 npm run build
 ```
 
-### 更多信息在线查看 ps:服务器快过期了
+### 更多信息
 vue2 [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 样式
