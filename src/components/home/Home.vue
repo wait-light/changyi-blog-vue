@@ -29,7 +29,7 @@
           <span class="iconfont icon-user spen_2_canclick" style="color: white;" @click="logout">退出</span>
         </div>
         <el-input @keyup.enter.native="search" placeholder="请输入内容" clearable v-model="search_string"
-          style="margin-left: 10px">
+          style="margin-left: 10px;padding:5px" >
           <el-button @click="search" slot="append" icon="el-icon-search"></el-button>
         </el-input>
       </div>
@@ -37,7 +37,7 @@
     </div>
     <div>
       <div :style="title.style">
-        <div class="max_title" :style="title.textColor">{{ title.text }}</div>
+        <div class="max_title basic_untouch" :style="title.textColor">{{ title.text }}</div>
         <div class="title_inner_content" v-html="title.content"></div>
         <div v-if="title.downButton.open && title.downButton.anotherOpen" class="max_title_down_box"
           @click="clickButton">

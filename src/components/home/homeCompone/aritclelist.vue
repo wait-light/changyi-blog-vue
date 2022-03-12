@@ -8,8 +8,8 @@
             <el-col :xs="24" :sm="14" :md="18" :lg="18">
                 <div class="index_mainer_container" v-loading="loading" element-loading-text="拼命加载中">
                     <div>
-                        <div style="width: 100%;" class="index_mainer_container_box index_article_list_title"
-                            v-if="articles.length == 0">
+                        <div style="width: 100%;" class="index_mainer_container_box index_article_list_title basic_untouch"
+                            v-if="!articles || articles.length == 0">
                             这个标签/分类什么都没有，看看其他的吧！
                         </div>
                         <div class="index_mainer_container_box" :key="index" v-for="(article,index) in articles">
@@ -77,14 +77,14 @@
             <el-col :xs="24" :sm="9" :md="4" :lg="4" class="index_sider_outter">
                 <div class="index_mainer_container_sm">
                     <div class="index_mainer_container_box_sm basic_font_title_xs">
-                        <label>分类</label><br>
+                        <label class="basic_untouch">分类</label><br>
                         <el-button type="primary" round size="mini" v-for="type in this.$basicConfig.types"
                             :key="type.name" @click="getArticleListByTypeid(type.id,1)">
                             {{type.name}}
                         </el-button>
                     </div>
                     <div class="index_mainer_container_box_sm basic_font_title_xs">
-                        <label>标签云</label><br>
+                        <label class="basic_untouch">标签云</label><br>
                         <el-tag class="index_tag_hover" :key="tag.id" v-for="(tag,index) in this.$basicConfig.tags"
                             :disable-transitions="false" @click='getArticleListByTagid(tag.id,1)'
                             :type="$color[index % $color.length]">

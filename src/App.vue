@@ -8,7 +8,7 @@
         name: 'app',
         data() {
             return {
-                theme_url: './assets/theme/default_theme.css',
+                theme_url: './assets/theme/circle/circle_theme.css',
                 theme_font_url: './assets/theme/font/default_font/iconfont.css',
                 isOpen: false,
                 loading: true
