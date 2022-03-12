@@ -149,6 +149,7 @@
 .index_tag_hover{
  transition: all 0.2s;
  cursor:pointer;
+ margin:2px 5px;
 }
 .index_tag_hover:hover{
     transform: scale(1.2);
@@ -257,4 +258,8 @@
 }
 .index_make_up{
    margin-top: -100px;
+}
+
+.type_button{
+    margin: 2px 5px;
 }

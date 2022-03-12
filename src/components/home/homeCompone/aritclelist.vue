@@ -78,7 +78,7 @@
                 <div class="index_mainer_container_sm">
                     <div class="index_mainer_container_box_sm basic_font_title_xs">
                         <label class="basic_untouch">分类</label><br>
-                        <el-button type="primary" round size="mini" v-for="type in this.$basicConfig.types"
+                        <el-button class="type_button" type="primary" round size="mini" v-for="type in this.$basicConfig.types"
                             :key="type.name" @click="getArticleListByTypeid(type.id,1)">
                             {{type.name}}
                         </el-button>
